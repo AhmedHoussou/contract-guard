@@ -1,5 +1,8 @@
 # 🛡️ contract-guard
 
+[![CI](https://github.com/AhmedHoussou/contract-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/AhmedHoussou/contract-guard/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 > Autonomous API contract testing and negative boundary fuzzing engine for OpenAPI 3.0 / Swagger specifications.
 
 `contract-guard` ingests your API specifications, resolves internal `$ref` schemas, synthesizes schema-compliant payloads, and autonomously generates boundary mutations (type mismatches, missing required fields, enum violations, and null injections) to expose schema drift and unhandled edge cases before they hit production.
