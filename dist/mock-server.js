@@ -3,8 +3,9 @@ export function startMockServer(port = 4000) {
     const users = [
         {
             id: 1,
-            fullName: 'Sarah Connor',
+            name: 'Sarah Connor',
             email: 'sarah@example.com',
+            role: 'admin',
             createdAt: new Date().toISOString(),
         },
     ];
