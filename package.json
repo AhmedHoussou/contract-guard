@@ -1,0 +1,13 @@
+{
+  "name": "contract-guard",
+  "version": "1.0.0",
+  "description": "Autonomous API Contract & Boundary Fuzzing Engine",
+  "type": "module",
+  "bin": {
+    "contract-guard": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc"
+  }
+}
